@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Store</title>
+    <link rel="icon" href="img/cr-logo.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="preloader_6">
+        <div class="preloader-contant">
+            <img src="img/logo.png" alt="">
+        </div>
+    </div>
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- end overlay -->
+    <!-- top-header -->
+    <div class="top-header bg-black">
+        <div class="container">
+            <ul class="head-offer d-flex">
+                <li>
+                    <i class="fa fa-truck"></i>
+                    <span>
+                        الشحن مجاني
+                    </span>
+                </li>
+                <li>
+                    <i class="fa fa-refresh"></i>
+                    <span>
+                        إرجاع مجاني بكل سهولة
+                    </span>
+                </li>
+                <li>
+                    <i class="fa fa-usd"></i>
+                    <span>
+                        الدفع عند الاستلام
+                    </span>
+                </li>
+            </ul>
+            <div class="drops">
+                <ul>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                <span>
+                                    العملة
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">USD</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown show">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <span>
+                                    العربية
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">arabic</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                            <span>
+                                تسجيل الدخول
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                            <span>
+                                تسجيل جديد
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end top-header -->
+    <!-- mid-header -->
+    <div class="mid-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-5">
+                    <div class="call-div">
+                        <div class="call">
+                            <i class="fa fa-map-marker yellow" aria-hidden="true"></i>
+                            <div class="info">
+                                <span>الموقع</span>
+                                <span> الرياض السعودية</span>
+                            </div>
+                        </div>
+                        <div class="call">
+                            <a href="tel:123456789">
+                                <i class="fa fa-mobile yellow" aria-hidden="true"></i>
+                                <div class="info">
+                                    <span>خدمة العملاء</span>
+                                    <span> 123456789</span>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-12">
+                    <div class="div-logo text-center">
+                        <a href="#">
+                            <img class="logo" src="img/logo.png" alt="">
+                        </a>
+                        <i class="fa fa-bars open-nav"></i>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <ul class="h-icons">
+                        <li>
+                            <a href="search-filter">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span class="bg-yellow">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-heart-o"></i>
+                                <span class="bg-yellow">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end mid-header -->
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="active">
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            ring
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            double
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            gouache
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            bracelets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            jewels
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- wrap -->
+    <div class="wrap">
+        <!-- slider -->
+        <section class="slider">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="img-fluid" src="img/Slider-Image.png" alt="">
+                        <div class="capture">
+                            <h4>اقتني احدث الذهب</h4>
+                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                                العربى، حيث يمكنك أن تولد مثل هذا النص</p>
+                            <a href="#" class="bg-yellow btn">
+                                تسوق الان
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-fluid" src="img/Slider-Image.png" alt="">
+                        <div class="capture">
+                            <h4>اقتني احدث الذهب</h4>
+                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                                العربى، حيث يمكنك أن تولد مثل هذا النص</p>
+                            <a href="#" class="bg-yellow btn">
+                                تسوق الان
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-fluid" src="img/Slider-Image.png" alt="">
+                        <div class="capture">
+                            <h4>اقتني احدث الذهب</h4>
+                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                                العربى، حيث يمكنك أن تولد مثل هذا النص</p>
+                            <a href="#" class="bg-yellow btn">
+                                تسوق الان
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- end slider -->
+        <!-- banners -->
+        <section class="banners">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="banner">
+                            <a href="#">
+                                <img src="img/item-1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="banner">
+                            <a href="#">
+                                <img src="img/item-2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end banners -->
+        <!-- pro-slider -->
+        <div class="pro-slider">
+            <div class="title text-center">
+                <h4>وصل حديثا</h4>
+                <img src="img/after-title@2x.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end pro-slider -->
+        <!-- banners -->
+        <section class="banners banners2">
+            <div class="container">">
+                <div class="banner">
+                    <a href="#">
+                        <img src="img/banner2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end banners -->
+        <!-- pro-slider -->
+        <div class="pro-slider">
+            <div class="title text-center">
+                <h4>وصل حديثا</h4>
+                <img src="img/after-title@2x.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="pro-item">
+                            <ul class="hover">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        اضف للسلة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pro-img">
+                                <img src="img/s-pro.png" alt="">
+                            </div>
+                            <div class="pro-name-rate">
+                                <p class="pro-name">
+                                    غواشة
+                                </p>
+                                <ul class="rate d-flex">
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star yellow"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="name">Lorem ipsum dolor sit amet consectetur</p>
+                            <div class="discount-div">
+                                <p class="current">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                                <p class="last-price">
+                                    <span>60</span>
+                                    <span>رس</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end pro-slider -->
+        <!-- banners -->
+        <section class="banners banners2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-12">
+                        <div class="banner">
+                            <a href="#">
+                                <img src="img/banner2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="banner">
+                            <a href="#">
+                                <img src="img/banner.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end banners -->
+        <!-- brand -->
+        <section class="brand">
+            <!-- Swiper -->
+            <div class="container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="img/brand.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end brand -->
+        <!-- news -->
+        <section class="news bg-yellow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="news-text">
+                            <img src="img/mail.png" alt="">
+                            <div class="txt">
+                                <h4>join our newsletter now</h4>
+                                <p>
+                                    Get 20% off first purchase.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <form action="">
+                            <input type="text" placeholder="برجاء ادخال البريد الالكتروني" class="form-control">
+                            <button class="btn btn-site bg-black">
+                                تاكيد
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end news -->
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item">
+                            <img class="f-logo" src="img/cr-logo.png" alt="">
+                            <p>
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                            </p>
+                            <img class="img-fluid" src="img/payment.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item">
+                            <div class="title">
+                                <h4>حسابي</h4>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="">
+                                        <span>دخول / تسجيل</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>عربة التسوق</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>مشترياتي</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>عناويني</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item">
+                            <div class="title">
+                                <h4>من نحن</h4>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="">
+                                        <span>عن الموقع</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>انضم للموقع</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>الشروط والاحكام</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>سياسة الخصوصية</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-item">
+                            <div class="title">
+                                <h4>تواصل معنا</h4>
+                            </div>
+                            <ul class="contact-info">
+                                <li>
+                                   <i class="fa fa-map-marker yellow"></i>
+                                   <span>الرياض , السعودية</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-mobile yellow"></i>
+                                    <span>123456789</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope yellow"></i>
+                                    <span>info@gmail.com</span>
+                                </li>
+                            </ul>
+                            <ul class="social">
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-behance"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="bottom-footer bg-black">
+            <span>
+                copyright &copy; 2020
+            </span>
+            <img src="img/cr-logo.png" alt="">
+            <span>
+                all right reserved.
+            </span>
+        </div>
+        <!-- end footer -->
+        <!-- search-div -->
+        <div class="search-div">
+            <form action="">
+                <div class="form-group">
+                    <input type="text" class="form-control">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </form>
+            <div class="close-search">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+        <!-- end search-div -->
+    </div>
+    <!-- end wrap -->
+    <!-- fixed-footer -->
+    <div class="fixed-footer">
+        <ul>
+            <li>
+                <a href="" class="active">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="search-filter" >
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="" class="">
+                    <div class="cart-div">
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        <span class="bg-yellow">
+                            0
+                        </span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="">
+                    <i class="fa fa-heart-o"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="">
+                    <i class="fa fa-user-o"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="">
+                    <i class="fa fa-globe"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- end fixed-footer -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
